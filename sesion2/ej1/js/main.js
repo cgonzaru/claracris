@@ -5,8 +5,8 @@ class Square {
     perimeter(long, num){
         console.log(long * num);
     }
-    area(num){
-        console.log(num * num);
+    area(long){
+        console.log(long * long);
     }
 }
 
