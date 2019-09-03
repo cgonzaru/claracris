@@ -1,4 +1,5 @@
 'use strict';
+
 class Polygon {
   constructor(numberOfSide, base, height){
     this.numberOfSide = numberOfSide;
@@ -15,6 +16,8 @@ class Polygon {
     return area;
   }
 }
+
+
 
 class Square extends Polygon{
   constructor(side){
@@ -38,10 +41,11 @@ class Triangule extends Polygon{
 const newSquare = new Square (4);
 const newTriangle = new Triangule(4,3);
 
-
 console.log(newSquare.perimeter());
 console.log(newSquare.area());
 
 console.log(newTriangle.perimeter());
 console.log(newTriangle.area());
+
+
 
